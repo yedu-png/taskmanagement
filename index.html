@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>My First HTML Page</title>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Welcome to My Website</h1>
-   <p>This is a paragraph of text on my first web page.</p>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> | 
+        <a href="#">About</a> | 
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About This Page</h2>
+            <p>This is a simple HTML structure example.</p>
+        </section>
+
+        <section>
+            <h2>Login Form Example</h2>
+            <form action="/login" method="POST">
+                <label>Email:</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <label>Password:</label><br>
+                <input type="password" name="password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
